@@ -32,6 +32,14 @@ yarn add style-loader css-loader
 ```
 
 
+### SASS (SCSS) loaders
+
+The sass-loader requires webpack as a peerDependency and it requires you to install either Node Sass or Dart Sass on your own.
+
+```
+yarn add -D sass-loader node-sass webpack
+```
+
 ## Reference
 
 1. [Introduction to Webpack: Part 1](https://code.tutsplus.com/tutorials/introduction-to-webpack-part-1--cms-25791)
@@ -40,3 +48,4 @@ yarn add style-loader css-loader
 4. [npm style-loader](https://www.npmjs.com/package/style-loader)
 5. [webpack css-loader](https://webpack.js.org/loaders/css-loader/)
 6. [npm css-loader](https://www.npmjs.com/package/css-loader)
+7. [webpack sass-loader](https://webpack.js.org/loaders/sass-loader/)

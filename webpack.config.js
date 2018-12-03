@@ -31,7 +31,20 @@ module.exports = {
           // css-loader interprets @import and url() like import/require() and will resolve them.
           { loader: 'css-loader' },
         ]
-      }
+      },
+      // add sass-loaderto handle SCSS files
+      // combine  with style-loader and css-loader
+      {
+        test: /\.scss$/,
+        exclude: /(node_modules|bower_components)/,
+        use: [
+          // style-loader adds CSS to the DOM by injecting a <style> tag
+          { loader: 'style-loader' },
+          // css-loader interprets @import and url() like import/require() and will resolve them.
+          { loader: 'css-loader' },
+          'sass-loader',
+        ]
+      },
     ]
   },
 
