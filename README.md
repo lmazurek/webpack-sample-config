@@ -58,3 +58,4 @@ yarn add -D file-loader
 6. [npm css-loader](https://www.npmjs.com/package/css-loader)
 7. [webpack sass-loader](https://webpack.js.org/loaders/sass-loader/)
 8. [webpack file-loader](https://webpack.js.org/loaders/file-loader/)
+9. [webpack jshint-loader](https://webpack.js.org/loaders/jshint-loader/)
