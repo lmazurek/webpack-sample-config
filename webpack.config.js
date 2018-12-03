@@ -47,6 +47,17 @@ module.exports = {
           'sass-loader',
         ]
       },
+      // add file-loaderto handle image files
+      {
+        test: /\.(png|jpg|gif)$/,
+        exclude: /(node_modules|bower_components)/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {},
+          },
+        ]
+      },
     ]
   },
 

@@ -40,6 +40,14 @@ The sass-loader requires webpack as a peerDependency and it requires you to inst
 yarn add -D sass-loader node-sass webpack
 ```
 
+### File loader
+
+Allows to import images into our JS files
+
+```
+yarn add -D file-loader
+```
+
 ## Reference
 
 1. [Introduction to Webpack: Part 1](https://code.tutsplus.com/tutorials/introduction-to-webpack-part-1--cms-25791)
@@ -49,3 +57,4 @@ yarn add -D sass-loader node-sass webpack
 5. [webpack css-loader](https://webpack.js.org/loaders/css-loader/)
 6. [npm css-loader](https://www.npmjs.com/package/css-loader)
 7. [webpack sass-loader](https://webpack.js.org/loaders/sass-loader/)
+8. [webpack file-loader](https://webpack.js.org/loaders/file-loader/)
