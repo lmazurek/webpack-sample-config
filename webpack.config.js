@@ -1,6 +1,6 @@
 module.exports = {
 
-  // file to be examined and complied with dependencies
+  // file to be examined and compiled with dependencies
   entry: './main.js',
 
   // module.rules allows to specify several loaders that take files
