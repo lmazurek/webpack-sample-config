@@ -42,6 +42,8 @@ module.exports = {
           { loader: 'style-loader' },
           // css-loader interprets @import and url() like import/require() and will resolve them.
           { loader: 'css-loader' },
+          // sass-loader loads a Sass/SCSS file and compiles it to CSS
+          // you can use a shorthand string instead of object:
           'sass-loader',
         ]
       },
