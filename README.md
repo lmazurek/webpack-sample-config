@@ -28,7 +28,7 @@ yarn add -D babel-loader @babel/core @babel/preset-env webpack
 ### Style loaders
 
 ```
-yarn add style-loader css-loader
+yarn add -D style-loader css-loader
 ```
 
 
